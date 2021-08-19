@@ -45,6 +45,10 @@
 .card:nth-child(2n){
     padding-top: 50px;
 }
+
+.card:hover{
+    opacity: 60%;
+}
 .name{
     font-family:var(--text-font);
     font-weight: 600;
@@ -63,6 +67,8 @@
     width: 138.72px;
     height: 209px;
 }
+
+
 /*FOOTER*/
 .credits{
     color: #A9A9A9;
