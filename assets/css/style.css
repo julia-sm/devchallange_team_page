@@ -70,3 +70,33 @@
     padding-top: 100px;
     text-align: center;
 }
+
+/*Start of responsive for desktop and tablets*/
+
+@media screen and (min-width:700px ){
+
+    .container{
+        margin: 0 5% 0 15%;
+    }
+    .whoweare{
+        margin-left: 50%;
+        margin-top: -6%;
+    }
+    
+    
+    .who-text{
+        font-size: 18px;
+       
+    }
+
+    .card{
+        width: 300px;
+        height: 399px;
+    }
+
+    .photo{
+        width: 238px;
+        height: 341px;
+    }
+    
+}
