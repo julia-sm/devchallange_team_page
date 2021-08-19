@@ -1,29 +1,53 @@
 @import url(./root.css);
 
+.container{
+    padding-left: 10px;
+}
+/*HEADER*/
 .team-title{
     font-family: var(--title-font);
     font-weight: 700;
     font-size: 36px;
+    margin-top: 50px;
 }
-
+/*MAIN*/
 .whoweare{
     font-family: var(--text-font);
+    padding-bottom: 50px;
+    padding-top: 10px;
 }
 
 .who-title{
-    font-weight: var(--title-weight);
-    size: 18px;
+    font-weight: 600;
+    font-size: 18px;
     text-transform: uppercase;
 }
 
 .who-text{
     font-weight: var(--text-weight);
-    size:14px;
+    font-size:14px;
+    width: 70%;
 }
 
+.people{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    width: 190px;
+    height: 283px;
+    flex-wrap: wrap;
+    
+}
+
+.card:nth-child(2n){
+    padding-top: 50px;
+}
 .name{
     font-family:var(--text-font);
-    font-weight: var(--title-weight);
+    font-weight: 600;
     font-size: 18px;
 }
 
@@ -32,9 +56,17 @@
     size: 12px;
     text-transform: uppercase;
     font-size: 12px;
+    writing-mode: vertical-rl;
 }
 
 .photo{
     width: 138.72px;
     height: 209px;
+}
+/*FOOTER*/
+.credits{
+    color: #A9A9A9;
+    font-family: 'Montserrat';
+    padding-top: 100px;
+    text-align: center;
 }
